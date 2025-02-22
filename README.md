@@ -198,10 +198,7 @@ basically makes quizzes by following the structure of the syllabus and governmen
 
 ## `output`:
 
-<audio controls>
-  <source src="https://github.com/usern/usern/raw/refs/heads/main/statics_helper/final_output_audio%20(1).webm" type="audio/webm">
-  Your browser does not support the audio element.
-</audio>
+[srt_to_audio.webm](<https://github.com/jayeshthk/jayeshthk/raw/refs/heads/main/statics_helper/final_output_audio%20(1).webm>)
 
 </details>
 
