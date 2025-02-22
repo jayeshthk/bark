@@ -196,16 +196,18 @@ unique every time and it
 basically makes quizzes by following the structure of the syllabus and government and or
 ```
 
+</details>
+
 ## `output`:
 
-[srt_to_audio.webm](<https://github.com/jayeshthk/jayeshthk/raw/refs/heads/main/statics_helper/final_output_audio%20(1).webm>)
+[srt_to_audio.webm](https://github.com/jayeshthk/jayeshthk/raw/refs/heads/main/statics_helper/final_output_audio%20(1).webm)
 
-</details>
-#### Parameters:
+## Parameters:
 
 - **`srt_path`** (_str_): Path to the input `.srt` file.
-- **`voice_preset`** (_str_, _optional_): Choose a specific voice preset for narration (default is Bark’s standard voice).
-- **`language`** (_str_, _optional_): Specify the language if not auto-detected from the SRT (e.g., `"en"`, `"fr"`).
+- **`output_dir`** (_str_): Path to the output directory to store `.wav` file.
+- **`history_prompt`** (_str_, _optional_): Voice prompt for Bark generation.
+- **`chunk_size`** (_int_, _optional_): Number of subtitles per audio chunk. or after how many dialogues the audio should be saved.
 
 This will generate an audio file that narrates the subtitles from your `.srt` file in the chosen voice preset.
 
